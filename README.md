@@ -1,27 +1,15 @@
 # react-native-smart-splash-screen
 
-[![npm](https://img.shields.io/npm/v/react-native-smart-splash-screen.svg)](https://www.npmjs.com/package/react-native-smart-splash-screen)
-[![npm](https://img.shields.io/npm/dm/react-native-smart-splash-screen.svg)](https://www.npmjs.com/package/react-native-smart-splash-screen)
-[![npm](https://img.shields.io/npm/dt/react-native-smart-splash-screen.svg)](https://www.npmjs.com/package/react-native-smart-splash-screen)
-[![npm](https://img.shields.io/npm/l/react-native-smart-splash-screen.svg)](https://github.com/react-native-component/react-native-smart-splash-screen/blob/master/LICENSE)
-
 A smart splash screen for React Native apps, written in JS, oc and java for cross-platform support.
 It works on iOS and Android.
-
-## Preview
-
-![react-native-smart-splash-screen-ios-preview][1]
-![react-native-smart-splash-screen-android-preview][2]
 
 ## Installation
 
 ```
-npm install react-native-smart-splash-screen --save
+npm install https://github.com/PsArvin/react-native-smart-splash-screen.git --save
+或
+git clone https://github.com/PsArvin/react-native-smart-splash-screen.git
 ```
-
-## Notice
-
-It can only be used greater-than-equal react-native 0.4.0 for ios, if you want to use the package less-than react-native 0.4.0, use `npm install react-native-smart-splash-screen@untilRN0.40 --save`
 
 ## Installation (iOS)
 
@@ -164,8 +152,3 @@ componentDidMount () {
   * animationType: determine the type of animation. enum(animationType.none, animationType.fade, animationType.scale)
   * duration: determine the duration of animation
   * delay: determine the delay of animation
-
-
-[0]: https://github.com/cyqresig/ReactNativeComponentDemos
-[1]: http://cyqresig.github.io/img/react-native-smart-splash-screen-preview-ios-v2.3.0.gif
-[2]: http://cyqresig.github.io/img/react-native-smart-splash-screen-preview-android-v2.3.0.gif
