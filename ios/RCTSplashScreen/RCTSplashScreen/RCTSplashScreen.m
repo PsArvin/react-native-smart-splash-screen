@@ -88,8 +88,16 @@ RCT_EXPORT_METHOD(close:(NSDictionary *)options) {
                      @"none": @(UIAnimationNone),
                      @"fade": @(UIAnimationFade),
                      @"scale": @(UIAnimationScale),
+                 },
+                 @"eventName": @{
+                     @"close": @"closeSplashScreen"
                  }
              };
+}
+
++ (BOOL)requiresMainQueueSetup
+{
+  return YES;
 }
 
 @end
